@@ -4,6 +4,7 @@ if test -f "$FILE"; then
    echo "$FILE exists"
    cd /home/ubuntu/
    pm2 stop --silent app.js
+   cd /home/ubuntu/aws-nodejs-sample-codebuild
    pm2 delete app.js
    killall -9 node
 else
