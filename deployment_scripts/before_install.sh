@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=/home/ubuntu/aws-nodejs-sample-codebuild/app.js
+FILE=/home/ubuntu/aws-nodejs-sample-codebuild
 if test -f "$FILE"; then
    echo "$FILE exists"
    cd /home/ubuntu/
@@ -11,5 +11,5 @@ else
     echo "$FILE does not exist."
 fi
 cd /home/ubuntu/
-sudo rm -rf aws-nodejs-sample-codebuild
+sudo mv -rf aws-nodejs-sample-codebuild.backup
 sudo mkdir aws-nodejs-sample-codebuild
