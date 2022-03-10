@@ -1,5 +1,5 @@
 #!/bin/bash
-FILE=/home/ubuntu/aws-nodejs-sample-codebuild
+FOLDER=/home/ubuntu/aws-nodejs-sample-codebuild
 if test -f "$FILE"; then
    echo "$FILE exists"
    cd /home/ubuntu/
