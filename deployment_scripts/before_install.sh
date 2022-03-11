@@ -1,3 +1,4 @@
+#!/bin/bash
 cd /home/ubuntu/aws-nodejs-sample-codebuild
 pm2 stop app.js
 cd /home/ubuntu/
