@@ -6,8 +6,7 @@ if test -f "$FILE"; then
    pm2 stop --silent app.js
    pm2 delete app.js
    killall -9 node
-else
-    echo "$FILE does not exist."
+
 fi
 cd /home/ubuntu/
 sudo mv -rf aws-nodejs-sample-codebuild.backup
