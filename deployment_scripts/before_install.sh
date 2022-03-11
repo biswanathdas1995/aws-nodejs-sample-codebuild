@@ -2,5 +2,5 @@
 cd /home/ubuntu/aws-nodejs-sample-codebuild
 pm2 stop app.js
 cd /home/ubuntu/
-sudo mv -rf aws-nodejs-sample-codebuild aws-nodejs-sample-codebuild.backup
+sudo rm -rf aws-nodejs-sample-codebuild 
 sudo mkdir aws-nodejs-sample-codebuild
