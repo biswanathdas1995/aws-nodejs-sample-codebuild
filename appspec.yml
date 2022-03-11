@@ -6,9 +6,11 @@ files:
 hooks:
  
  BeforeInstall:
-    - location: deployment_scripts/before_install.sh
+     echo "starting BeforeInstallation"
+     location: deployment_scripts/before_install.sh
       timeout: 300
       runas: root
+      echo " finished before install"
  
  AfterInstall:
     - location: deployment_scripts/after_install.sh
