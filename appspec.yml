@@ -6,7 +6,7 @@ files:
 hooks:
 BeforeInstall:
    - location: deployment_scripts/after_install.sh
-      timeout: 300
+      timeout:300
  AfterInstall:
     - location: deployment_scripts/after_install.sh
       timeout: 100
