@@ -5,7 +5,7 @@ files:
     destination:/home/ubuntu/aws-nodejs-sample-codebuild
 hooks:
 BeforeInstall:
-    location: deployment_scripts/after_install.sh
+    location: deployment_scripts/before_install.sh
      timeout: 300
  AfterInstall:
      location: deployment_scripts/after_install.sh
